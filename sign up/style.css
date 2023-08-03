@@ -1,0 +1,20 @@
+#outlinebox {
+    width: fit-content;
+}
+/* .completepage {
+     
+} */
+fieldset {
+    width: 350px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: start;}
+    legend {
+    background-color: #efefef;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: left;
+    text-transform: uppercase;
+}

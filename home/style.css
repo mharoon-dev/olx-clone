@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.topbar {
+    box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+    width: 1531px;
+    height: 150px;
+    border-radius: 10px;
+    position: fixed;
+    background-color: #f7f8f8;
+}
+.topbar1 {
+    position: fixed;
+}
+.topbar2 {
+    position: fixed;
+    margin-top: 50px;
+}
+#olxbiglogoblackcolor {
+    width: 20px;
+}
+
+#signup {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    color: black; padding:5px;
+    font-size: x-large;
+    }
+#login {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        text-decoration:underline ;
+        color: black;
+        padding:5px;
+        font-size: x-large;
+    
+    
+    }
+
+.nav  ul {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        font-size: larger;
+        background-color: #f7f8f8;
+        box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+        -webkit-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+        -moz-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
+        width: 1531px;
+        height: 30px; 
+        border-radius: 10px;
+        margin-top: 150px;
+        margin: auto o;
+    }
+a {
+    text-decoration: none;    
+    cursor: grab ;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}    
+#link1 {
+    text-decoration: none;
+    color: rgb(65, 53, 231);
+}
+#link2 {
+    text-decoration: none;
+    color: black;
+} 
+#link3 {
+    text-decoration: none;
+    color: black;
+}
+#link4 {
+    text-decoration: none;
+    color: black;
+}    
+#link5 {
+    text-decoration: none;
+    color: black;
+}
+#link6 {
+    text-decoration: none;
+    color: black;
+}
+#cities {
+    width: 120px; height: 35px; max-height: 100px; 
+border-radius: 13px; margin-right: 10px; 
+border-color: black ;
+border-width: 2.5px;
+}
+#search {
+    width: 400px; height: 35px;  border-radius: 12px;  margin-right: 10px;border-color: black ;
+    border-width: 2.5px;
+}
+#allcategories {
+    margin-left: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 650;
+}
+.pagespics ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX-TABLETS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- topbar -->
+   <div class="topbar">
+    <div   class="topbar1">
+<table  cellspacing="0" cellpadding="1">
+    <tr>
+      <td> &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img SRC="../IMAGES/logo.png" ALT="LOGO" title="logo" width="60" /></td>
+    <td> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="../IMAGES/car.png" alt="car" width="130" /></td>
+    <td> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="../IMAGES/building.png" alt="properety" width="75" /></td>
+    </tr>
+</table>
+</div>
+<div class="topbar2">
+<table CELLPADDING="2"  cellspacing="10">
+    <tr>
+        <td>
+            <img id="olx big logo black color" SRC="../IMAGES/olx-big-logo.png" ALT="LOGO" title="logo" width="140"  />
+        </td>
+        <td>
+            <form class="cityselection" action="#">
+
+                <select name="cities" id="cities">
+                    <option value="cities" disabled selected>cities</option>
+                    <option value="karachi">karachi</option>
+                    <option value="lahore">lahore</option>
+                    <option value="islamabad">islamabad</option>
+                    <option value="faislabad">faislabad</option>
+                    <option value="multan">multan</option>
+                    <option value="quetta">quetta</option>
+                    <option value="peshawar">peshawar</option>
+                    <option value="hedrabad">hedrabad</option>
+                    <option value="Gujranwala">Gujranwala</option>
+                    <option value="pawalpindi">pawalpindi</option>
+                    <option value="bahawalpur">bahawalpur</option>
+                    <option value="sialkot">sialkot</option>
+                    <option value="larkana">larkana</option>
+                </select>
+                
+                    </form>
+        </td>
+        <td>
+            <form>
+                <input id="search" type="search" name="search" placeholder="&nbsp;search"size="30">
+            </form>
+        </td>
+        <td>
+            <a id="signup" href="../sign up/sign up.html"><strong>SIGN UP</strong></a>
+        </td>
+        <td>
+            <a id="login"   href="../log in/log in.html"><strong>LOGIN</strong></a>
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+<!-- topbar end -->
+
+<br />
+
+<!-- nav bar -->
+<div class="nav">
+    <ul>
+    <li> <a id="link1" href="../home/home.html">HOME</a>          </li>
+    <li> <a id="link2" href="../MOBILES/mobiles.html">MOBILES</a>    </li>
+    <li> <a id="link3" href="../TABLETS/TABLETS.html">TABLETS</A>    </li>
+    <li> <a id="link4" href="../CARS/CARS.HTML">CARS</A>        </li>
+    <li> <a id="link5" href="../TV/tv.html">TV</A>             </li>
+    <li> <a id="link6" href="../PROPERTY/PROPERTY.HTML">PROPERETY</A> </li>
+    </div> 
+<!-- nav bar end -->
+
+<br> 
+<br> 
+
+
+<!-- Filters -->
+<div id="container">
+<div class="filters">
+<H1 id="mobileinpak">Mobile phones in pakistan</H1>
+<br>
+<h1 id="filters">Filters</h1>
+<HR />
+
+<!-- location -->
+
+<br>
+<h3 id="location">LOCATION</h3> <br>
+<form action="#">
+   &nbsp;&nbsp; <form   action="#">
+   &nbsp;<select  name="PAKISTAN" class="location">
+<option name="PAKISTAN" value="PAKISTAN"  disabled selected>Pakistan</option>
+<option name="PAKISTAN" value="karachi"   >karachi</option>
+<option name="PAKISTAN" value="lahore"    >lahore</option>
+<option name="PAKISTAN" value="islamabad"   >islamabad</option>
+<option name="PAKISTAN" value="faislabad"  >faislabad</option>
+<option name="PAKISTAN" value="multan"  >multan</option>
+<option name="PAKISTAN" value="quetta"  >quetta</option>
+<option name="PAKISTAN" value="peshawar" >peshawar</option>
+<option name="PAKISTAN" value="Gujranwala" >Gujranwala</option>
+<option name="PAKISTAN" value="pawalpindi" >pawalpindi</option>
+<option name="PAKISTAN" value="bahawalpur" >bahawalpur</option>
+<option name="PAKISTAN" value="sialkot" >sialkot</option>
+<option name="PAKISTAN" value="larkana" >larkana</option>
+</select>
+</form>
+
+<!-- location end -->
+
+
+<!-- price -->
+<br>
+
+<h3 id="price">PRICE</h3><br>
+<FORM action="#">
+   &nbsp; &nbsp;
+   <LABEL   id="minilabel" for="MINIMUM"></LABEL>  
+   <INPUT class="MINIMUM" type="number" placeholder="&nbsp; MINIMUM" name="MINIMUM PRICE" value="price" style="  width: 120px; height: 30px; max-height: 100px; 
+   border-radius: 13px; margin-right: 10px; 
+   border-color: black ;
+   border-width: 2.5px;"></INPUT>
+   <BR /> <BR />
+  &nbsp; &nbsp;
+  <LABEL for="MAXIMUM" ></LABEL>
+  <INPUT  class="MAXIMUM" type="number" placeholder="&nbsp;MAXIMUM" name="MAXIMUM PRICE" value="price"  style="  width: 120px; height: 30px; max-height: 100px; 
+  border-radius: 13px; margin-right: 10px; 
+  border-color: black ;
+  border-width: 2.5px;"> </INPUT>
+</FORM>
+
+<!-- price end -->
+
+<!-- CONDITION -->
+
+<BR />
+<H3 id="condition">CONDITION</H3><br>
+<FORM>
+   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<INPUT id="used"  name="CONDITION"  value="USED"  type="radio"></INPUT>
+  <label for="CONDITION" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">USED</LABEL>
+   <BR />
+   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<INPUT id="new"  name="CONDITION"  value="NEW"  type="radio"></INPUT>
+   <label &nbsp; &nbsp; for="CONDITION" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">NEW</LABEL>
+</FORM>
+
+<!-- condition end -->
+
+
+
+</div>
+
+<!-- filters end -->
+
+
+<!-- ad -->
+
+<div class="ads-div">
+
+    <div id="ad1">
+
+        <div>
+            <img src="../IMAGES/tablets page/ad 1.jpg" class="ad-pic" style="height: 190px;">
+        </div>
+        <div class="ad-content">
+            <h3 class="adprice">142,000</h3>
+            <br />
+            <p class="adname">S7 plus Tablet 8Gb 512Gb tab</p>
+            
+            <p  class="addetails">Township - Sector B1, Lahore</p>
+            <button class="button">  <img src="../IMAGES/call button.png" alt="call button" width="25px" >      </button>
+            <button class="button">  <img src="../IMAGES/message button.png" alt="message button" width="25px"> </button>
+        </div>
+    
+        </div> 
+    
+        <div id="ad2">
+            <div>
+                <img src="../IMAGES/tablets page/ad 2.png" class="ad-pic" style="height: 190px;">
+            </div>
+            <div class="ad-content">
+                <h3 class="adprice">Rs 36,000</h3>
+                <br />
+                <p class="adname">Lenovo K10</p>
+                
+                <p  class="addetails">Bahria Town, Lahore</p>
+                <button class="button">  <img src="../IMAGES/call button.png" alt="call button" width="25px" >      </button>
+                <button class="button">  <img src="../IMAGES/message button.png" alt="message button" width="25px"> </button>
+            </div>
+        </div>
+    
+    
+            <div id="ad3">
+                <div>
+                    <img src="../IMAGES/tablets page/ad 3.jpg" class="ad-pic" style="height: 200px;">
+                </div>
+                <div class="ad-content">
+                    <h3 class="adprice">Rs 69,000</h3>
+                    <br />
+                    <p class="adname">iPad Mini 5 Cellular
+                    </p>
+                    
+                    <p  class="addetails">I.I. Chundrigar Road, Karachi</p>
+        
+                    <button class="button">  <img src="../IMAGES/call button.png" alt="call button" width="25px" >      </button>
+                    <button class="button">  <img src="../IMAGES/message button.png" alt="message button" width="25px"> </button>
+                </div>
+            </div>
+    
+            <div id="ad4">
+    
+                <div>
+                    <img src="../IMAGES/tablets page//ad 4.jpg" class="ad-pic" style="height: 210px;">
+                </div>
+                <div class="ad-content">
+                    <h3 class="adprice">Rs 36,000</h3>
+                    <br />
+                    <p class="adname">Ipad mini 4</p>
+                    
+                    <p  class="addetails">I-8, Islamabad</p>
+                    <button class="button">  <img src="../IMAGES/call button.png" alt="call button" width="25px" >      </button>
+                    <button class="button">  <img src="../IMAGES/message button.png" alt="message button" width="25px"> </button>
+                </div>
+        
+                </div> 
+    
+                <div id="ad5">
+    
+                    <div>
+                        <img src="../IMAGES/tablets page/ad 5.jpg" class="ad-pic">
+                    </div>
+                    <div class="ad-content">
+                        <h3 class="adprice">Rs 8,999</h3>
+                        <br />
+                        <p class="adname">Tabs Available Best Stock in Low Budget (Samsung, Lenovo, Huawei)</p>
+                        
+                        <p  class="addetails">Allama Iqbal Road, Lahore</p>
+                        <button class="button"> <img src="../IMAGES/call button.png" alt="call button" width="25px">       </button>
+                        <button class="button"> <img src="../IMAGES/message button.png" alt="message button" width="25px"> </button>
+                    </div>
+            
+                    </div> 
+    
+                    <div id="ad6">
+    
+                        <div>
+                            <img src="../IMAGES/tablets page/ad 6.jpg" class="ad-pic" style="height: 190px;">
+                        </div>
+                        <div class="ad-content">
+                            <h3 class="adprice">Rs 64,000</h3>
+                            <br />
+                            <p class="adname">Apple iPad 8 Generation 32gb For sale all okay Box + Charger</p>
+                            
+                            <p  class="addetails">Qartaba Chowk, Lahore</p>
+                            <button class="button"> <img src="../IMAGES/call button.png" alt="call button" width="25px">       </button>
+                            <button class="button"> <img src="../IMAGES/message button.png" alt="message button" width="25px"> </button>
+                        </div>
+                
+                        </div>
+
+
+
+                    </div>
+
+<!-- ad end -->
+
+
+
+
+
+</body>
+</html>

@@ -2,10 +2,135 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 
+/* top bar */
+
 .topbar {
+    background-color: #f7f8f8;
+    width: 1511px;
+}
+
+
+
+/* topbar1 */
+.top-bar1 {
+    display: flex;
+    justify-content: start;
+}
+
+
+.top-bar1 div {
+    margin-right: 0rem;
+    margin-top: 0.8rem;
+    margin-left: 3rem;
+}
+
+#logo {
+    padding-top: 0.5rem;
+}
+
+#car-btn {
+    border-radius: 50%;
+    padding: 0.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 1px -1px 9px 1.5px inset;
+}
+
+#property-btn {
+    border-radius: 50%;
+    padding: 0.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 1px -1px 9px 1.5px inset;
+}
+
+
+
+/* top bar 2 */
+
+.top-bar2 {
+    display: flex;
+    justify-content: start;
+    margin-top: 1rem;
+}
+
+.top-bar2 div {
+    margin-right: -5.5rem;
+    margin-top: 0.4rem;
+    margin-left: 3.2rem;
+}
+
+/* black logo */
+#black-logo {
+    width: 4rem;
+}
+
+/* location bar */
+.locationbar {
+    height: 3rem;
+    width: 15rem;
+    border: 2px solid black;
+    border-radius: 0.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: -0.8rem;
+}
+
+
+/* searchbar */
+.searchbar {
+    height: 3rem;
+    width: 45rem;
+    border: 2px solid black;
+    border-radius: 0.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: -0.8rem;
+    margin-left: 3.5rem;
+}
+
+
+
+/* sell-btn */
+#login-btn {
+    margin-left: 9rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+#sell-btn  {
+    
+    width: 105px;
+    height: 50px;
+    margin-left: 7rem;
+    margin-top: -0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px ;
+    background-image: url(https://www.olx.com.pk/assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg);
+    background-repeat: no-repeat;
+    background-size: 6.7rem;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+/* .topbar {
     box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
     -webkit-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
     -moz-box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.15);
@@ -13,11 +138,9 @@
     height: 150px;
     border-radius: 10px;
     position: fixed;
-    background-color: #f7f8f8;
-}
-.topbar1 {
-    position: fixed;
-}
+    background-color: #f7f8f8; */
+/* } */
+
 .topbar2 {
     position: fixed;
     margin-top: 50px;
